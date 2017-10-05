@@ -3,6 +3,7 @@
 !/WebContent/
 !/build/
 !/src/
+!.gitignore
 
 # Compiled class file
 *.class
