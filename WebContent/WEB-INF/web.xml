@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>a00983709_lab04</display-name>
+  <description>This is a web application of temperature converter</description>
+  <servlet>	
+  	<servlet-name>Lab04</servlet-name>
+  	<servlet-class>a00983709.lab04.Lab04Servlet</servlet-class>
+    <init-param>
+		<param-name>instruction</param-name>
+		<param-value>Please enter a temperature to convert</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Lab04</servlet-name>
+    <url-pattern>/lab04</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
