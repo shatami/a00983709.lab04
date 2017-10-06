@@ -9,6 +9,10 @@
 		<param-name>instruction</param-name>
 		<param-value>Please enter a temperature to convert</param-value>
     </init-param>
+    <init-param>
+		<param-name>input</param-name>
+		<param-value>(^[0-9]+\.{0,1}[0-9]{0,1}$)</param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>Lab04</servlet-name>

@@ -24,8 +24,8 @@ public void jspInit() {
 </Center>
 <form action = "lab04" method = "get">
   <CENTER><p><input type = "text" name = "input" />
-  <h3>Convert temerature to:</h3>
-  <input type = "radio" name = "temp" value = "celsius"> Celsius
+  <h3>Convert temperature to:</h3>
+  <input type = "radio" name = "temp" value = "celsius" checked> Celsius
   <input type = "radio" name = "temp" value = "fahrenheit"> Fahrenheit
   <br><input type = "submit" value = "Convert"/></CENTER>
 </form>
